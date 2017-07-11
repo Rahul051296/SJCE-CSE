@@ -28,6 +28,7 @@ $(document).scroll(function()
               $('.navbar-default').css('padding-bottom','10px');
               $('.navbar-default ul>li>a').css('color','#000');
               $('.navbar-brand').css('color','rgba(0,0,0,0.8)');
+              $('.fa-bars').css('color','#000');
            }
        else
            {
@@ -35,7 +36,7 @@ $(document).scroll(function()
                $('.navbar-default ul>li>a').css('color','#fff');
                $('.navbar-brand').css('color','#fff');
                $('.navbar-default').css('box-shadow','0px 0px 0px 0px #000');
-
+               $('.fa-bars').css('color','#fff');
           }
   });
   });
