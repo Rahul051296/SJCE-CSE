@@ -1,3 +1,43 @@
+.navbar-default
+{
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 0;
+  background: rgba(0,0,0,0);
+  border: 0;
+}
+.navbar-default ul>li
+{
+  font-size: 12px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.navbar-default ul>li>a{
+  color: #fff;
+}
+a.navbar-brand
+{
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Righteous',cursive;
+}
+#heading
+{
+  z-index: 1;
+}
+.jumbotron
+{
+  color: white;
+  font-family: 'Righteous',cursive;
+  background: rgba(0, 0, 0,0);
+  margin: 0 auto;
+  position: relative;
+  top: 25%;
+  border-radius: 20px;
+}
+.jumbotron h1 {
+	//font-size: 2em;
+}
+
 header
 {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -74,7 +114,7 @@ article#others
   background: #e76137;
   color: #fff;
   font-family: 'Raleway',sans-serif;
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
 }
 #vac
 {
@@ -120,6 +160,10 @@ div#firstSec.row
 .margs2
 {
   margin-top: 10px;
+}
+.margs3
+{
+  margin-top: 30px;
 }
 .pads
 {

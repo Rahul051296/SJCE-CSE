@@ -9,3 +9,38 @@ html,body {
 body{
 overflow-x: hidden;
 }
+.navbar-custom2
+{
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 0;
+  border: 0;
+  background: #fff !important;
+  padding-bottom: 10px;
+  box-shadow:0px 0px 8px 0px #010101;
+}
+.navbar-default .navbar-toggle
+{
+  border: 0;
+}
+.navbar-toggle:focus,
+.navbar-toggle:hover
+{
+  background: rgba(0, 0, 0, 0);
+}
+.navbar-custom2 ul>li
+{
+  font-size: 12px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.navbar-custom2 ul>li>a{
+  color: #000 !important;
+}
+footer
+{
+  background: #1c1c1c;
+  padding: 100px 0 100px 0;
+  color: #fff;
+  font-family: 'Raleway',sans-serif;
+
+}
