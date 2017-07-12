@@ -44,3 +44,7 @@ footer
   font-family: 'Raleway',sans-serif;
 
 }
+.navbar-default ul>li>a:hover
+{
+  color: orange !important;
+}
