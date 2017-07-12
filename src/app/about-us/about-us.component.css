@@ -5,3 +5,46 @@ a.navbar-brand
   color: rgba(0,0,0,0.8);
   font-family: 'Righteous',cursive;
 }
+#about-back
+{
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+url('../../assets/back2.jpg');
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+url('../../assets/back2.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+url('../../assets/back2.jpg');
+  height: 60vh;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron
+{
+  background: rgba(0, 0, 0, 0);
+  font-family: 'Righteous',sans-serif;
+  color: #fff;
+  padding-top: 25vh;
+}
+#firstAbout
+{
+  font-family: 'Raleway',sans-serif;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.margsBottom
+{
+  margin-bottom: 50px;
+}
+.fix
+{
+  margin: 0 auto;
+}
+.margs-100
+{
+  margin-top: 100px;
+}
+.margs-20
+{
+  margin-top:50px;
+}

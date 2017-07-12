@@ -1,9 +1,10 @@
 #footer-section
 {
-  padding: 20px;
+  padding: 10px;
   background: #101010;
   font-family: 'Raleway',sans-serif;
   color: #e1e1e1;
+  margin-top: 100px;
 }
 #author
 {
@@ -13,4 +14,8 @@
 #author:hover
 {
   color: #e76137;
+}
+.fix
+{
+  margin: 0 auto;
 }
