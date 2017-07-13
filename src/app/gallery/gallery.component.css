@@ -5,3 +5,24 @@ a.navbar-brand
   color: rgba(0,0,0,0.8);
   font-family: 'Righteous',cursive;
 }
+.jumbotron
+{
+  background: rgba(0, 0, 0, 0);
+  font-family: 'Righteous',sans-serif;
+  color: #fff;
+  padding-top: 25vh;
+}
+#gallery-back
+{
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+url('../../assets/back2.jpg');
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+url('../../assets/back2.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+url('../../assets/back2.jpg');
+  height: 60vh;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
