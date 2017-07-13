@@ -29,3 +29,15 @@
             </div>
           </div>
         </header>
+        <section>
+          <article class="container" id="contact">
+      <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+  <agm-marker [latitude]="lat" [longitude]="lng" [title]="title">
+    <agm-info-window [disableAutoPan]="false">
+           <h5 class="text-center"><b>St. Joseph's College of Engineering</b></h5>
+           <p class="text-center">Old Mamallapuram Road, Semmencherry, Kamaraj Nagar,<br> Semmancheri, Chennai, Tamil Nadu 600119</p>
+        </agm-info-window>
+  </agm-marker>
+</agm-map>
+</article>
+</section>

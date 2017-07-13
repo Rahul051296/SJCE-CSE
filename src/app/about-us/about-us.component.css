@@ -48,3 +48,7 @@ url('../../assets/back2.jpg');
 {
   margin-top:50px;
 }
+li#about-us>a
+{
+  color: orange !important;
+}

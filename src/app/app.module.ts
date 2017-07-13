@@ -11,6 +11,9 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 
+import { AgmCoreModule } from '@agm/core';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +27,9 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyAx5CZ3ctMUfAybIslLB0Jy_Dac3HvL-6M'
+    }),
     RouterModule.forRoot([
       {
         path: '',
