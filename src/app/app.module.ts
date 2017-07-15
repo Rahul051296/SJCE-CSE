@@ -10,7 +10,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-
+import { SmoothScrollToDirective, SmoothScrollDirective } from "../../node_modules/ng2-smooth-scroll";
 import { AgmCoreModule } from '@agm/core';
 
 
@@ -20,6 +20,8 @@ import { AgmCoreModule } from '@agm/core';
     AboutUsComponent,
     LabComponent,
     FacultyComponent,
+    SmoothScrollToDirective,
+    SmoothScrollDirective,
     StudentsComponent,
     GalleryComponent,
     ContactUsComponent,
