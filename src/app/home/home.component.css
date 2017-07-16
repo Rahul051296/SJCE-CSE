@@ -14,12 +14,11 @@
 .navbar-default ul>li>a{
   color: #fff;
 }
-a.navbar-brand
+a.navbar-title
 {
   font-size: 20px;
   color: #fff;
   margin-top: -10px;
-  //padding-top: 10px;
   font-family: 'Righteous',cursive;
 }
 
@@ -189,7 +188,7 @@ div#firstSec.row
 {
   //color: orange !important;
 }
-@media only screen and (max-width:768px)
+@media only screen and (max-width:767px)
 {
   #bs-example-navbar-collapse-1
   {

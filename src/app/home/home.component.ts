@@ -25,13 +25,13 @@ $(document).scroll(function()
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top)
           {
-              $('.navbar-custom').css('background-color', 'rgb(255, 255, 255)');
+              $('.navbar-custom').css('background-color', 'rgba(255, 255, 255,0.98)');
               $('.navbar-custom').css('box-shadow','0px 0px 8px 0px #010101');
               $('.navbar-custom').css('padding-bottom','10px');
               $('.navbar-custom ul>li>a').css('color','#000');
               $('.navbar-title').css('color','rgba(0,0,0,0.8)');
               $('.nav-icon').css('color','#000');
-              if (window.matchMedia('(max-width: 768px)').matches) {
+              if (window.matchMedia('(max-width: 767px)').matches) {
               $('#bs-example-navbar-collapse-1 ul> li > a').css('color','#000');
             }
            }
@@ -42,7 +42,7 @@ $(document).scroll(function()
                $('.navbar-title').css('color','#fff');
                $('.navbar-custom').css('box-shadow','0px 0px 0px 0px #000');
                $('.nav-icon').css('color','#fff');
-               if (window.matchMedia('(max-width: 768px)').matches) {
+               if (window.matchMedia('(max-width: 767px)').matches) {
                $('#bs-example-navbar-collapse-1 ul> li > a').css('color','#000');
              }
 
