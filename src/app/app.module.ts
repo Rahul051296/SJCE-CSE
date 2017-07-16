@@ -12,6 +12,7 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { SmoothScrollToDirective, SmoothScrollDirective } from "../../node_modules/ng2-smooth-scroll";
 import { AgmCoreModule } from '@agm/core';
+import { NgProgressModule } from 'ngx-progressbar';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { AgmCoreModule } from '@agm/core';
   ],
   imports: [
     BrowserModule,
+    NgProgressModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyAx5CZ3ctMUfAybIslLB0Jy_Dac3HvL-6M'
     }),

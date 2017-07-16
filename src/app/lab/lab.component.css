@@ -39,6 +39,10 @@ url('../../assets/back2.jpg');
 {
   background: #f1f1f1;
 }
+.table-gray
+{
+  background: #f9f9f9;
+}
 .tableBorder
 {
   border-bottom:  0.1px solid #777;
@@ -51,6 +55,10 @@ url('../../assets/back2.jpg');
 .margin-top-30
 {
   margin-top: 30px;
+}
+.margin-top-20
+{
+  margin-top: 20px;
 }
 .padding-50
 {

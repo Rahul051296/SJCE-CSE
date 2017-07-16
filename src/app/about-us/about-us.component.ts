@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 declare var JQuery:any;
 declare var $:any;
 @Component({
@@ -11,7 +12,5 @@ export class AboutUsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    
-  }
-
+}
 }
