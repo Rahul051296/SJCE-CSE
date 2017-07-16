@@ -22,10 +22,8 @@ overflow-x: hidden;
 {
   border: 0;
 }
-.navbar-toggle:focus,
-.navbar-toggle:hover
-{
-  background: rgba(0, 0, 0, 0);
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 .navbar-custom2 ul>li
 {
@@ -42,6 +40,7 @@ footer
   background: #1c1c1c;
   padding: 100px 0 0 0;
   color: #fff;
+  margin-bottom: -50px;
   font-family: 'Raleway',sans-serif;
 
 }
