@@ -188,14 +188,3 @@ div#firstSec.row
 {
   //color: orange !important;
 }
-@media only screen and (max-width:767px)
-{
-  #bs-example-navbar-collapse-1
-  {
-    background: white;
-  }
-  #bs-example-navbar-collapse-1 ul> li > a
-  {
-    color: #000;
-  }
-}

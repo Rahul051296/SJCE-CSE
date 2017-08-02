@@ -12,6 +12,10 @@ a.navbar-brand
   color: #fff;
   padding-top: 25vh;
 }
+#faculty-section, .modal
+{
+    font-family: 'Raleway',sans-serif;
+}
 #faculty-back
 {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -25,6 +29,35 @@ url('../../assets/back2.jpg');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.box-center
+{
+  margin: 0 auto;
+}
+.margin-modal-20
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.margin-50
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#more-details
+{
+  margin-top: 20px;
+  padding: 10px;
+  color: #fff;
+  background: #43598b;
+  border: #43598b;
+  border-radius: 20px;
+}
+.modal-header
+{
+  background: #43598b;
+  font-family: 'Righteous',sans-serif;
+  color: #fff;
 }
 @media only screen and (max-width:768px)
 {
