@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { LabComponent } from './lab/lab.component';
 import { FacultyComponent } from './faculty/faculty.component';
+import { FacultyDetailsService } from './faculty-details.service';
 import { StudentsComponent } from './students/students.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
@@ -13,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { SmoothScrollToDirective, SmoothScrollDirective } from "../../node_modules/ng2-smooth-scroll";
 import { AgmCoreModule } from '@agm/core';
 import { NgProgressModule } from 'ngx-progressbar';
+import { HttpModule } from '@angular/http';
 
 
 @NgModule({
@@ -31,6 +33,7 @@ import { NgProgressModule } from 'ngx-progressbar';
   imports: [
     BrowserModule,
     NgProgressModule,
+    HttpModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyAx5CZ3ctMUfAybIslLB0Jy_Dac3HvL-6M'
     }),
@@ -65,7 +68,7 @@ import { NgProgressModule } from 'ngx-progressbar';
       }
     ])
   ],
-  providers: [],
+  providers: [FacultyDetailsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

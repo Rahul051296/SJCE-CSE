@@ -32,17 +32,18 @@
           </header>
   <section class="container text-center" id="faculty-section">
     <article class="margin-50" >
-      <div class="row">
-        <div class="col-md-4">
-          <a data-toggle="modal" data-target="#chandrasekar">
-            <img src="../assets/chandrasekar.jpg" class="img-responsive img-rounded box-center"/>
+      <div class="row" >
+        <div class="col-md-3 col-sm-3 col-xs-6" *ngFor="let f of faculty" (click)="getStaff(f.id)">
+          <a data-toggle="modal" data-target="#modal-open">
+            <img src="https://kernalsjce17.000webhostapp.com/assets/images/{{f.photopath}}" class="img-responsive img-circle box-center"/>
           </a>
-            <h4>Dr. A Chandra Sekar</h4>
+            <h4>{{f?.name}}</h4>
+            <h6 class="text-muted">{{f?.designation}}</h6>
         </div>
       </div>
     </article>
   </section>
-  <div id="chandrasekar" class="modal fade" role="dialog">
+  <div id="modal-open" class="modal fade" role="dialog">
     <div class="modal-dialog">
 
       <!-- Modal content-->
@@ -54,18 +55,18 @@
         <div class="modal-body text-center">
           <div class="row margin-modal-20 text-center">
             <div class="col-md-4">
-              <img src="../assets/chandrasekar.jpg" class="image-responsive img-rounded"/>
+              <img src="https://kernalsjce17.000webhostapp.com/assets/images/{{facultyDetails.photopath}}" class="image-responsive img-rounded"/>
             </div>
             <div class="col-md-8">
-              <h2>Dr. A Chandrasekar</h2>
-              <h5 class="text-muted">Professor and Head<br>M.E., Ph.D.</h5>
+              <h2>{{facultyDetails.name}}</h2>
+              <h5 class="text-muted">{{facultyDetails.designation}}<br>{{facultyDetails.qualification}}</h5>
               <div class="margin-modal-20">
 
-              <p><b>Gender:</b> Male</p>
-              <p><b>Date of Birth:</b> 16.06.1977</p>
-              <p><b>Date of Joining:</b> 27.05.2002</p>
+              <p><b>Gender:</b> {{facultyDetails.gender}}</p>
+              <p><b>Date of Birth:</b> {{facultyDetails.dob}}</p>
+              <p><b>Date of Joining:</b> {{facultyDetails.doj}}</p>
             </div>
-              <a class="btn btn-info" id="more-details" href="../assets/chandrasekar.pdf" target="_blank">More Details</a>
+              <a class="btn btn-info" id="more-details" href="https://kernalsjce17.000webhostapp.com/assets/pdf/{{facultyDetails.pdfpath}}" target="_blank">More Details</a>
             </div>
 
         </div>
