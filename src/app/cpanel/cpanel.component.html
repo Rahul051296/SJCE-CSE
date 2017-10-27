@@ -1,0 +1,66 @@
+<nav class="navbar navbar-default navbar-custom2 navbar-fixed-top">
+  <button type="button" id="navbarToggle" class="glyph-pad navbar-toggle collapsed btn-lg" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+                  <span class="fa fa-bars" aria-hidden="true" style="color:black;"></span>
+
+                  </button>
+  <div class="container">
+    <div class="navbar-header navbar-titles">
+      <a href="/" class="navbar-brand hidden-xs"><span><img src="./assets/logo.png" width="70px"> Computer Science &amp; Engineering</span></a>
+      <a href="/" class="navbar-brand hidden-sm hidden-md hidden-lg"><span><img class="logo" src="./assets/logo.png" width="50px"> Computer Science</span></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li id="home" class="text-center"><a scrollTo="target" routerLink="/">HOME</a></li>
+        <li id="about-us" class="text-center"><a scrollTo="target" routerLink="/about-us">ABOUT US</a></li>
+        <li id="lab" class="text-center"><a scrollTo="target" routerLink="/laboratory">LABORATORY</a></li>
+        <li id="faculty" class="text-center"><a scrollTo="target" routerLink="/faculty">FACULTY</a></li>
+        <li id="students" class="text-center"><a scrollTo="target" routerLink="/students">STUDENTS</a></li>
+        <li id="gallery" class="text-center"><a scrollTo="target" routerLink="/gallery">GALLERY</a></li>
+        <li id="contact-us" class="text-center"><a scrollTo="target" routerLink="/contact-us">CONTACT US</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+<header id="cpanel-back">
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Control Panel</h1>
+    </div>
+  </div>
+</header>
+<section id="form-section" class="container">
+  <h1 class="text-center" id="insert-title">Insert Faculty Details</h1><hr>
+  <div class="form-group">
+    <form class="" method="POST" enctype="multipart/form-data" action="https://kernalsjce17.000webhostapp.com/putstaff.php">
+      <!--<input type="hidden" name="submitted" value="true" />-->
+      <div class="row">
+
+        <div class="col-md-8 col-md-offset-2 contact_lt ">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="staffName" placeholder="Enter Name" class="form-control inp_lt" required>
+          <label for="designation">Designation</label>
+          <input type="text" id="designation" name="staffDesignation" placeholder="Enter Designation" class="form-control inp_lt" required>
+          <label for="qualification">Qualification</label>
+          <input type="text" id="qualification" name="staffQualification" placeholder="Enter Qualification" class="form-control inp_lt" required>
+          <label for="gender">Gender</label>
+          <input type='text' id="gender" name="staffGender" placeholder="Enter Gender" class="form-control inp_lt" required/>
+          <label for="doj">Date of Birth</label>
+          <input type='date' id="dob" name="staffDob" placeholder="Date of Birth (DD/MM/YY)" class="form-control inp_lt" required/>
+          <label for="doj">Date of Joining</label>
+          <input type='date' id="doj" name="staffDoj" placeholder="Date of Joining (DD/MM/YY)" class="form-control inp_lt" required/>
+          <label>Upload Photo</label>
+          <input type='file' id="img" name="staffPhoto" placeholder="Upload Image" class="form-control inp_lt" required/>
+          <label>Upload PDF</label>
+          <input type='file' id="pdf" name="staffPdf" placeholder="Upload PDF" class="form-control inp_lt" required/>
+          <input type="submit" value="Submit" name="submit" class="btn btn-block btn-info" />
+        </div>
+      </div>
+
+
+
+    </form>
+
+  </div>
+</section>

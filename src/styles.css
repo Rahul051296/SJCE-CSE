@@ -34,7 +34,9 @@ overflow-x: hidden;
 .navbar-custom2 ul>li>a{
   color: #000 !important;
 }
-
+button:focus{
+  outline: none;
+}
 footer
 {
   background: #1c1c1c;

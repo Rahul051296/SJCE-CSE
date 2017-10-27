@@ -15,6 +15,7 @@ import { SmoothScrollToDirective, SmoothScrollDirective } from "../../node_modul
 import { AgmCoreModule } from '@agm/core';
 import { NgProgressModule } from 'ngx-progressbar';
 import { HttpModule } from '@angular/http';
+import { CpanelComponent } from './cpanel/cpanel.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { HttpModule } from '@angular/http';
     StudentsComponent,
     GalleryComponent,
     ContactUsComponent,
-    HomeComponent
+    HomeComponent,
+    CpanelComponent
   ],
   imports: [
     BrowserModule,
@@ -65,6 +67,10 @@ import { HttpModule } from '@angular/http';
       {
         path: 'laboratory',
         component: LabComponent
+      },
+      {
+        path: 'cpanel',
+        component: CpanelComponent
       }
     ])
   ],

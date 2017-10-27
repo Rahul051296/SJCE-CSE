@@ -1,0 +1,48 @@
+a.navbar-brand
+{
+  font-size: 20px;
+  color: rgba(0,0,0,0.8);
+  font-family: 'Righteous',cursive;
+}
+.jumbotron
+{
+  background: rgba(0, 0, 0, 0);
+  font-family: 'Righteous',sans-serif;
+  color: #fff;
+  padding-top: 25vh;
+}
+label
+{
+  font-family: 'Raleway',sans-serif;
+}
+#insert-title
+{
+  font-family: 'Righteous',sans-serif;
+}
+.btn
+{
+  margin-top: 40px;
+}
+#cpanel-back
+{
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+url('../../assets/back2.jpg');
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+url('../../assets/back2.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+url('../../assets/back2.jpg');
+  height: 60vh;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inp_lt
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact_lt
+{
+  margin-top: 50px;
+}

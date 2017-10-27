@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FacultyDetailsService } from '../faculty-details.service';
+import {NgProgressService} from 'ngx-progressbar';
+import { Http } from '@angular/http';
+
 @Component({
   selector: 'app-faculty',
   templateUrl: './faculty.component.html',
@@ -8,7 +11,8 @@ import { FacultyDetailsService } from '../faculty-details.service';
 export class FacultyComponent implements OnInit {
   faculty:any;
   facultyDetails: any;
-  constructor(private facultyService: FacultyDetailsService) { }
+  photoUrl: any;
+  constructor(private facultyService: FacultyDetailsService, public progressService: NgProgressService, public http: Http) { }
 
   ngOnInit() {
     this.getAllStaff();
@@ -17,12 +21,9 @@ export class FacultyComponent implements OnInit {
   getAllStaff(){
    this.facultyService.getAllStaff().subscribe(response => {
        this.faculty = response;
-   });
-}
-  getStaff(id){
-   this.facultyService.getStaff(id).subscribe(response => {
-       this.facultyDetails = response[0];
-       console.log(this.facultyDetails);
+       this.photoUrl = response.photopath;
+       this.progressService.done();
+       console.log(this.faculty);
    });
 }
 

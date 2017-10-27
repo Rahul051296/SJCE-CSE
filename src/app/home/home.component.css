@@ -37,17 +37,17 @@ a.navbar-title
   border-radius: 20px;
 }
 .jumbotron h1 {
-	//font-size: 2em;
+	text-shadow: 2px 2px #000;
 }
 
 header
 {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-url('../../assets/back2.jpg');
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-url('../../assets/back2.jpg');
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-url('../../assets/back2.jpg');
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+url('../../assets/background.jpg');
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+url('../../assets/background.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+url('../../assets/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -173,6 +173,10 @@ div#firstSec.row
 }
 .pads2
 {
+  display: block;
+  margin-bottom: 30px;
+}
+.pad-btm{
   margin-bottom: 30px;
 }
 .learnMore

@@ -10,6 +10,7 @@ a.navbar-brand
   background: rgba(0, 0, 0, 0);
   font-family: 'Righteous',sans-serif;
   color: #fff;
+  text-shadow: 2px 2px #000;
   padding-top: 25vh;
 }
 #faculty-section, .modal
@@ -19,11 +20,11 @@ a.navbar-brand
 #faculty-back
 {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-url('../../assets/back2.jpg');
+url('../../assets/background.jpg');
   background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-url('../../assets/back2.jpg');
+url('../../assets/background.jpg');
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-url('../../assets/back2.jpg');
+url('../../assets/background.jpg');
   height: 60vh;
   background-attachment: fixed;
   background-position: top;
@@ -32,6 +33,12 @@ url('../../assets/back2.jpg');
 }
 .box-center
 {
+  margin: 0 auto;
+  width: 200px;
+  height: 220px;
+  object-fit: cover;
+}
+.center-modal-photo{
   margin: 0 auto;
 }
 .margin-modal-20
@@ -58,6 +65,12 @@ url('../../assets/back2.jpg');
   background: #43598b;
   font-family: 'Righteous',sans-serif;
   color: #fff;
+}
+#faculty-section h4{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 @media only screen and (max-width:768px)
 {

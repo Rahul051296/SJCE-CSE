@@ -10,11 +10,11 @@ a.navbar-brand
 #about-back
 {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-url('../../assets/back2.jpg');
+url('../../assets/background.jpg');
   background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-url('../../assets/back2.jpg');
+url('../../assets/background.jpg');
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-url('../../assets/back2.jpg');
+url('../../assets/background.jpg');
   height: 60vh;
   background-attachment: fixed;
   background-position: top;
@@ -26,7 +26,11 @@ url('../../assets/back2.jpg');
   background: rgba(0, 0, 0, 0);
   font-family: 'Righteous',sans-serif;
   color: #fff;
+  text-shadow: 2px 2px #000;
   padding-top: 25vh;
+}
+#firstAbout h4{
+  line-height: 1.5;
 }
 #firstAbout
 {
@@ -41,6 +45,7 @@ url('../../assets/back2.jpg');
 .fix
 {
   margin: 0 auto;
+  width: 230px;
 }
 .margs-100
 {
