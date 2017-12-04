@@ -16,6 +16,15 @@ import { AgmCoreModule } from '@agm/core';
 import { NgProgressModule } from 'ngx-progressbar';
 import { HttpModule } from '@angular/http';
 import { CpanelComponent } from './cpanel/cpanel.component';
+import { VisionMissionComponent } from './vision-mission/vision-mission.component';
+import { PeoPsoComponent } from './peo-pso/peo-pso.component';
+import { PoComponent } from './po/po.component';
+import { SyllabusComponent } from './syllabus/syllabus.component';
+import { FacultyMentorsComponent } from './faculty-mentors/faculty-mentors.component';
+import { SupervisorsComponent } from './supervisors/supervisors.component';
+import { ResearchScholarsComponent } from './research-scholars/research-scholars.component';
+import { PhdComponent } from './phd/phd.component';
+import { ResearchProjectsComponent } from './research-projects/research-projects.component';
 
 
 @NgModule({
@@ -30,7 +39,16 @@ import { CpanelComponent } from './cpanel/cpanel.component';
     GalleryComponent,
     ContactUsComponent,
     HomeComponent,
-    CpanelComponent
+    CpanelComponent,
+    VisionMissionComponent,
+    PeoPsoComponent,
+    PoComponent,
+    SyllabusComponent,
+    FacultyMentorsComponent,
+    SupervisorsComponent,
+    ResearchScholarsComponent,
+    PhdComponent,
+    ResearchProjectsComponent
   ],
   imports: [
     BrowserModule,
@@ -61,12 +79,48 @@ import { CpanelComponent } from './cpanel/cpanel.component';
         component: GalleryComponent
       },
       {
-        path: 'students',
+        path: 'academics',
         component: StudentsComponent
       },
       {
         path: 'laboratory',
         component: LabComponent
+      },
+      {
+        path: 'vision-mission',
+        component: VisionMissionComponent
+      },
+      {
+        path:'peo-pso',
+        component: PeoPsoComponent
+      },
+      {
+        path:'po',
+        component: PoComponent
+      },
+      {
+        path:'syllabus',
+        component: SyllabusComponent
+      },
+      {
+        path:'faculty-mentors',
+        component: FacultyMentorsComponent
+      },
+      {
+        path:'research-scholars',
+        component: ResearchScholarsComponent
+      },
+      {
+        path:'phd',
+        component: PhdComponent
+      },
+      {
+        path:'supervisors',
+        component: SupervisorsComponent
+      },
+      {
+        path:'research-projects',
+        component: ResearchProjectsComponent
       },
       {
         path: 'cpanel',

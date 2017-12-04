@@ -1,12 +1,4 @@
 
-a.navbar-brand
-{
-  font-size: 20px;
-  color: rgba(0,0,0,0.8);
-  //padding-top: 10px;
-  font-family: 'Righteous',cursive;
-}
-
 #about-back
 {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -15,9 +7,8 @@ url('../../assets/background.jpg');
 url('../../assets/background.jpg');
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 url('../../assets/background.jpg');
-  height: 60vh;
   background-attachment: fixed;
-  background-position: top;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -27,16 +18,20 @@ url('../../assets/background.jpg');
   font-family: 'Righteous',sans-serif;
   color: #fff;
   text-shadow: 2px 2px #000;
-  padding-top: 25vh;
+  padding-top: 200px;
 }
 #firstAbout h4{
   line-height: 1.5;
 }
 #firstAbout
 {
-  font-family: 'Raleway',sans-serif;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  font-family: 'Roboto',sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#firstAbout ul>li{
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 .margsBottom
 {

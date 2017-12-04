@@ -14,12 +14,4 @@ export class AppComponent {
   title = 'app';
 constructor(public progressService: NgProgressService){
 }
-  ngOnInit(){
-  /*  this.progressService.start();
-    setTimeout(()=>
-{
-  this.progressService.done()
-},
-3000)*/
-}
 }

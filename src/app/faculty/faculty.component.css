@@ -11,7 +11,7 @@ a.navbar-brand
   font-family: 'Righteous',sans-serif;
   color: #fff;
   text-shadow: 2px 2px #000;
-  padding-top: 25vh;
+  padding-top: 200px;
 }
 #faculty-section, .modal
 {
@@ -25,9 +25,8 @@ url('../../assets/background.jpg');
 url('../../assets/background.jpg');
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 url('../../assets/background.jpg');
-  height: 60vh;
   background-attachment: fixed;
-  background-position: top;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -71,6 +70,10 @@ url('../../assets/background.jpg');
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+li#faculty>a
+{
+  color: orange !important;
 }
 @media only screen and (max-width:768px)
 {

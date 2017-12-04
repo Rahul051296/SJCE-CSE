@@ -1,5 +1,175 @@
 <ng-progress [showSpinner]="false" [color]="'#e76137'"></ng-progress>
 <div id="target"></div>
+<nav class="navbar navbar-default navbar-custom2 navbar-fixed-top hidden-xs">
+  <div id="nav-header">
+    <img src="./assets/logo.png" width="60px" class="img-responsive" style="display:inline">
+    <span class="hidden-xs">Department of Computer Science &amp; Engineering</span>
+  </div>
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li id="home" class="text-center"><a scrollTo="target" routerLink="/">HOME</a></li>
+      <li class="dropdown" class="text-center">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">PROFILE
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a scrollTo="target" routerLink="/about-us">ABOUT US</a></li>
+          <li><a scrollTo="target" routerLink="/vision-mission">VISION &amp; MISSION</a></li>
+          <li><a scrollTo="target" routerLink="/peo-pso">PEO &amp; PSO</a></li>
+          <li><a scrollTo="target" routerLink="/po">PROGRAM OUTCOME</a></li>
+          <li><a scrollTo="target" routerLink="/gallery">GALLERY</a></li>
+        </ul>
+      </li>
+      <li class="dropdown" class="text-center">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">ACADEMICS
+      <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a scrollTo="target" routerLink="/syllabus">SYLLABUS &amp; REGULATION</a></li>
+          <li><a scrollTo="target" routerLink="/academics">LESSON &amp; LAB PLAN</a></li>
+          <li><a scrollTo="target" routerLink="/academics">COURSE MATERIALS</a></li>
+          <li><a scrollTo="target" routerLink="/academics">MODULE COORDINATORS</a></li>
+        </ul>
+      </li>
+      <li class="dropdown" class="text-center">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">FACULTY
+    <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a scrollTo="target" routerLink="/faculty">FACULTY &amp; STAFF</a></li>
+          <li><a scrollTo="target" routerLink="/faculty-mentors">FACULTY MENTORS</a></li>
+        </ul>
+      </li>
+      <li class="dropdown" class="text-center">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">FACILITIES
+    <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a scrollTo="target" routerLink="/laboratory">LABORATORY</a></li>
+          <li><a scrollTo="target" routerLink="/laboratory">RESEARCH CELL</a></li>
+        </ul>
+      </li>
+      <li class="dropdown" class="text-center">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">STUDENTS
+    <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a scrollTo="target" routerLink="/academics">RESEARCH</a></li>
+          <li><a scrollTo="target" routerLink="/laboratory">ACHIEVEMENTS</a></li>
+          <li><a scrollTo="target" routerLink="/laboratory">ACADEMIC PERFORMANCE</a></li>
+          <li><a scrollTo="target" routerLink="/laboratory">SCHOLARSHIP</a></li>
+        </ul>
+      </li>
+      <li id="lab" class="text-center"><a scrollTo="target" routerLink="/laboratory">PLACEMENTS</a></li>
+      <li class="dropdown" class="text-center">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">RESEARCH
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a scrollTo="target" routerLink="/supervisors">SUPERVISORS</a></li>
+          <li><a scrollTo="target" routerLink="/phd">Ph.D AWARDED</a></li>
+          <li><a scrollTo="target" routerLink="/research-scholars">RESEARCH SCHOLARS</a></li>
+          <li><a scrollTo="target" routerLink="/research-projects">RESEARCH PROJECTS</a></li>
+          <li><a scrollTo="target" routerLink="/laboratory">PUBLICATIONS</a></li>
+        </ul>
+      </li>
+      <li class="dropdown" class="text-center">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">PROFESSIONAL ACTIVITIES
+    <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a scrollTo="target" routerLink="/laboratory">IEEE</a></li>
+          <li><a scrollTo="target" routerLink="/laboratory">ACM</a></li>
+          <li><a scrollTo="target" routerLink="/laboratory">III CELL</a></li>
+        </ul>
+      </li>
+      <li class="text-center"><a scrollTo="target" routerLink="/gallery">NEWS</a></li>
+      <li id="contact-us" class="text-center"><a scrollTo="target" routerLink="/contact-us">CONTACT US</a></li>
+
+    </ul>
+  </div>
+</nav>
+
+<nav class="navbar navbar-default navbar-custom2 navbar-fixed-top hidden-sm hidden-md hidden-lg hidden-xl">
+
+  <button type="button" id="navbarToggle" class="glyph-pad navbar-toggle collapsed btn-lg" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <span class="fa fa-bars nav-icon" aria-hidden="true"></span>
+  </button>
+  <div class="container-fluid">
+    <div class="navbar-header navbar-titles">
+      <a href="/" class="navbar-brand" id="mob-head"><span><img class="logo" src="./assets/logo.png" width="50px"><span id="sup"> Department of </span> Computer Science</span><span id="engg"> &amp; Engineering</span></a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li id="home" class="text-center"><a scrollTo="target" routerLink="/">HOME</a></li>
+        <li class="dropdown" class="text-center">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">PROFILE
+        <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a scrollTo="target" routerLink="/about-us">ABOUT US</a></li>
+            <li><a scrollTo="target" routerLink="/vision-mission">VISION &amp; MISSION</a></li>
+            <li><a scrollTo="target" routerLink="/peo-pso">PEO &amp; PSO</a></li>
+            <li><a scrollTo="target" routerLink="/po">PROGRAM OUTCOME</a></li>
+            <li><a scrollTo="target" routerLink="/gallery">GALLERY</a></li>
+          </ul>
+        </li>
+        <li class="dropdown" class="text-center">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">ACADEMICS
+      <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a scrollTo="target" routerLink="/syllabus">SYLLABUS &amp; REGULATION</a></li>
+            <li><a scrollTo="target" routerLink="/academics">LESSON &amp; LAB PLAN</a></li>
+            <li><a scrollTo="target" routerLink="/academics">COURSE MATERIALS</a></li>
+            <li><a scrollTo="target" routerLink="/academics">MODULE COORDINATORS</a></li>
+          </ul>
+        </li>
+        <li class="dropdown" class="text-center">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">FACULTY
+    <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a scrollTo="target" routerLink="/faculty">FACULTY &amp; STAFF</a></li>
+            <li><a scrollTo="target" routerLink="/faculty-mentors">FACULTY MENTORS</a></li>
+          </ul>
+        </li>
+        <li class="dropdown" class="text-center">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">FACILITIES
+    <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a scrollTo="target" routerLink="/laboratory">LABORATORY</a></li>
+            <li><a scrollTo="target" routerLink="/laboratory">RESEARCH CELL</a></li>
+          </ul>
+        </li>
+        <li class="dropdown" class="text-center">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">STUDENTS
+    <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a scrollTo="target" routerLink="/academics">RESEARCH</a></li>
+            <li><a scrollTo="target" routerLink="/laboratory">ACHIEVEMENTS</a></li>
+            <li><a scrollTo="target" routerLink="/laboratory">ACADEMIC PERFORMANCE</a></li>
+            <li><a scrollTo="target" routerLink="/laboratory">SCHOLARSHIP</a></li>
+          </ul>
+        </li>
+        <li id="lab" class="text-center"><a scrollTo="target" routerLink="/laboratory">PLACEMENTS</a></li>
+        <li class="dropdown" class="text-center">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">RESEARCH
+        <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a scrollTo="target" routerLink="/laboratory">SUPERVISORS</a></li>
+            <li><a scrollTo="target" routerLink="/phd">Ph.D AWARDED</a></li>
+            <li><a scrollTo="target" routerLink="/research-scholars">RESEARCH SCHOLARS</a></li>
+            <li><a scrollTo="target" routerLink="/research-projects">RESEARCH PROJECTS</a></li>
+            <li><a scrollTo="target" routerLink="/laboratory">PUBLICATIONS</a></li>
+          </ul>
+        </li>
+        <li class="dropdown" class="text-center">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">PROFESSIONAL ACTIVITIES
+    <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a scrollTo="target" routerLink="/laboratory">IEEE</a></li>
+            <li><a scrollTo="target" routerLink="/laboratory">ACM</a></li>
+            <li><a scrollTo="target" routerLink="/laboratory">III CELL</a></li>
+          </ul>
+        </li>
+        <li class="text-center"><a scrollTo="target" routerLink="/gallery">NEWS</a></li>
+        <li id="contact-us" class="text-center"><a scrollTo="target" routerLink="/contact-us">CONTACT US</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
 <router-outlet></router-outlet>
 <footer>
   <div class="container">
@@ -13,38 +183,40 @@
         <div class="row margs3">
           <div class="col-md-1 col-xs-1">
             <i class="fa fa-map-marker" aria-hidden="true"></i>
+          </div>
+          <div class="col-md-11 col-xs-11 text-muted ">
+            <p>St. Joseph's College of Engineering, OMR, Semmencherry, Chennai - 600 119.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1 col-xs-1">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </div>
+          <div class="col-md-11 col-xs-11 text-muted">
+            <p>+91-44-24500792</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1 col-xs-1">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </div>
+          <div class="col-md-11 col-xs-11 text-muted">
+            <p>hodcsestaffaffairs@stjosephs.ac.in</p>
+          </div>
+        </div>
       </div>
-      <div class="col-md-11 col-xs-11 text-muted ">
-        <p>St. Joseph's College of Engineering, OMR, Semmencherry, Chennai - 600 119.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-1 col-xs-1">
-        <i class="fa fa-phone" aria-hidden="true"></i>
-  </div>
-  <div class="col-md-11 col-xs-11 text-muted">
-    <p>+91-44-24500792</p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-1 col-xs-1">
-    <i class="fa fa-envelope" aria-hidden="true"></i>
-</div>
-<div class="col-md-11 col-xs-11 text-muted">
-<p>hodcsestaffaffairs@stjosephs.ac.in</p>
-</div>
-</div>
-  </div>
       <div class="col-md-4 col-sm-4 col-xs-12">
         <h4 class="justify">We are open</h4>
 
-<div class="margs3 text-muted"><p>Mon-Sat: 8:00 - 15:00
-<br>(Please check if the faculty member you wish to meet is present if you are visiting us on a Saturday)</p></div>
+        <div class="margs3 text-muted">
+          <p>Mon-Sat: 8:00 - 15:00
+            <br>(Please check if the faculty member you wish to meet is present if you are visiting us on a Saturday)</p>
+        </div>
       </div>
     </div>
   </div>
   <section id="footer-section" class="text-center">
-    <h4 >&copy; 2017 All rights reserved by St. Joseph's College of Engineering</h4>
-    <h6 class="text-muted">Designed by <a href="https://github.com/Rahul051296" id="author" target="_blank">Rahul Prabhakar</a></h6>
+    <h4>&copy; 2017 All rights reserved by St. Joseph's College of Engineering</h4>
+    <h6 class="text-muted">Designed by <a href="http://rahulprabhakar.in/" id="author" target="_blank">Rahul Prabhakar</a></h6>
   </section>
 </footer>
