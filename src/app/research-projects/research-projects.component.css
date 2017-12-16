@@ -20,11 +20,20 @@ url('../../assets/background.jpg');
   text-shadow: 2px 2px #000;
   padding-top: 200px;
 }
+.upr{
+  text-transform: uppercase;
+}
 #research-projects{
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.table-center{
+  vertical-align: middle;
+}
+#research-projects table td{
+  vertical-align: middle;
 
+}
 .margsBottom
 {
   margin-bottom: 50px;

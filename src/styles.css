@@ -39,6 +39,9 @@ ul.dropdown-menu >li> a {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+.table-center{
+  vertical-align: middle;
+}
 button:focus{
   outline: none;
 }

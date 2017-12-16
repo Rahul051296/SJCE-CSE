@@ -24,14 +24,10 @@ url('../../assets/background.jpg');
   margin-top: 50px;
   margin-bottom: 50px;
 }
-#vision-mission h2{
-  font-family: 'Roboto',sans-serif;
+#faculty-mentors table td{
+    vertical-align: middle;
 }
-#vision-mission p{
-  font-size: 18px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
+
 .margsBottom
 {
   margin-bottom: 50px;

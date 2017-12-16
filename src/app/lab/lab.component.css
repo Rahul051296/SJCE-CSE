@@ -28,8 +28,11 @@ url('../../assets/background.jpg');
 }
 #labDetails
 {
-  padding-top:100px;
-  padding-bottom: 100px;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+#labDetails table td {
+  vertical-align: middle;
 }
 .pads
 {
@@ -60,9 +63,10 @@ url('../../assets/background.jpg');
 {
   margin-top: 20px;
 }
-.padding-50
+.padding-20
 {
-  padding: 50px;
+  padding: 20px;
+  padding-left: 0;
 }
 .table-orange
 {
@@ -81,10 +85,4 @@ li#lab>a
 h4
 {
   font-size: 1.2em;
-}
-@media only screen and (max-width:768px)
-{
-  .navbar-brand{
-    margin-top: -10px;
-  }
 }

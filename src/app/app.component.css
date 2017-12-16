@@ -8,7 +8,9 @@
   padding-left: 10px;
   font-family: 'Righteous',cursive;
 }
-
+.table-center{
+  vertical-align: middle;
+}
 #mob-head{
   font-family: 'Righteous',cursive;
   padding-top: 5px;

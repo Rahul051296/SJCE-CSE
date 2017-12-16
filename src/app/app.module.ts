@@ -25,6 +25,12 @@ import { SupervisorsComponent } from './supervisors/supervisors.component';
 import { ResearchScholarsComponent } from './research-scholars/research-scholars.component';
 import { PhdComponent } from './phd/phd.component';
 import { ResearchProjectsComponent } from './research-projects/research-projects.component';
+import { PatentsComponent } from './patents/patents.component';
+import { PublicationsComponent } from './publications/publications.component';
+import { AchievementsComponent } from './achievements/achievements.component';
+import { ProfessionalActivitiesComponent } from './professional-activities/professional-activities.component';
+import { PlacementsComponent } from './placements/placements.component';
+import { AcademicPerformanceComponent } from './academic-performance/academic-performance.component';
 
 
 @NgModule({
@@ -48,7 +54,13 @@ import { ResearchProjectsComponent } from './research-projects/research-projects
     SupervisorsComponent,
     ResearchScholarsComponent,
     PhdComponent,
-    ResearchProjectsComponent
+    ResearchProjectsComponent,
+    PatentsComponent,
+    PublicationsComponent,
+    AchievementsComponent,
+    ProfessionalActivitiesComponent,
+    PlacementsComponent,
+    AcademicPerformanceComponent
   ],
   imports: [
     BrowserModule,
@@ -121,6 +133,30 @@ import { ResearchProjectsComponent } from './research-projects/research-projects
       {
         path:'research-projects',
         component: ResearchProjectsComponent
+      },
+      {
+        path:'patents',
+        component: PatentsComponent
+      },
+      {
+        path:'publications',
+        component: PublicationsComponent
+      },
+      {
+        path:'achievements',
+        component: AchievementsComponent
+      },
+      {
+        path:'professional-activities',
+        component: ProfessionalActivitiesComponent
+      },
+      {
+        path:'placements',
+        component: PlacementsComponent
+      },
+      {
+        path:'academic-performance',
+        component: AcademicPerformanceComponent
       },
       {
         path: 'cpanel',
